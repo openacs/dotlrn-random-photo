@@ -154,7 +154,7 @@ ad_proc -public dotlrn_random_photo::remove_portlet {
     @param portal_id
     @param args A list of key-value pairs (possibly user_id, community_id, and more)
 } { 
-    random_photo_display::remove_self_from_page \
+    rphoto_display_portlet::remove_self_from_page \
         -portal_id $portal_id \
         -package_id [ns_set get $args package_id]
 }
