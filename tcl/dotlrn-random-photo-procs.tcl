@@ -29,7 +29,7 @@ ad_proc -public dotlrn_random_photo::my_package_key {} {
 ad_proc -public dotlrn_random_photo::get_pretty_name {} {
     returns the pretty name
 } {
-    return "Random Photo"
+    return "#random-photo-portlet.Random_photo#"
 }
 
 ad_proc -public dotlrn_random_photo::add_applet {} {
