@@ -7,11 +7,12 @@
     <initial-install-p>f</initial-install-p>
     <singleton-p>f</singleton-p>
     
-    <version name="0.1d" url="http://openacs.org/repository/download/apm/dotlrn-random-photo-0.1d.apm">
+    <version name="2.2.0b1" url="http://openacs.org/repository/download/apm/dotlrn-random-photo-2.2.0b1.apm">
         <owner url="mailto:gmorales@galileo.edu">Gerardo Morales</owner>
+        <release-date>2006-06-01</release-date>
 
-        <provides url="dotlrn-random-photo" version="0.1d"/>
-        <requires url="random-photo-portlet" version="0.1d"/>
+        <provides url="dotlrn-random-photo" version="2.2.0b1"/>
+        <requires url="random-photo-portlet" version="2.2.0b1"/>
 
         <callbacks>
             <callback type="after-install"  proc="dotlrn_random_photo::install"/>
